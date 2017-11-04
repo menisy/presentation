@@ -1,0 +1,461 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Intervision</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <script src="js/jquery2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/Stats.js"></script>
+    <!--this is button script-->
+</head>
+
+<body>
+    <div class="panel shown" id="pnl0">
+        <video playsinline autoplay muted loop poster="" id="bgvid">
+            <source src="videos/introvid.mp4" type="video/mp4">
+        </video>
+        <!--button side-->
+        <div class="btnback">
+            <div class=" clearfix">
+                <!-- <div class="panel grid_3 col-lg-4 col-lg-offset-2">
+                  <div class="fmcircle_out pic">
+                     <a href="./www/4k%20videos.html">
+                        <div class="fmcircle_border">
+                           <div class="fmcircle_in fmcircle_green ">
+                              <p class="mainword" >4K VIDEOS</p>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <div class="panel grid_3 col-lg-offset-2 col-lg-4">
+                  <div class="fmcircle_out">
+                     <a href="./www/smart%20sheet.html">
+                        <div class="fmcircle_border">
+                           <div class="fmcircle_in fmcircle_green">
+                              <p class="mainword">SMART SHEET</p>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div> -->
+                <div id="show" class="grid_3 col-lg-7 col-lg-offset-5">
+                    <div class="fmcircle_out">
+                        <a href="#intro">
+                     <img class="logon" src="2.png" alt="" />
+                     </a>
+                    </div>
+                </div>
+                <!-- <div class="panel grid_3 col-lg-4 col-lg-offset-2">
+                  <div class="fmcircle_out">
+                     <a href="./www/Test.html">
+                        <div class="fmcircle_border">
+                           <div class="fmcircle_in fmcircle_green">
+                              <p class="mainword">APPLICATIONS</p>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <div class="panel grid_3 col-lg-4 col-lg-offset-2">
+                  <div class="fmcircle_out">
+                     <a href="./www/hologram.html">
+                        <div class="fmcircle_border">
+                           <div class="fmcircle_in fmcircle_green">
+                              <p class="mainword">HOLOGRAM</p>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="panel" id="pnl1">
+        <div class="header">
+            <div class="logo-wrapper">
+                <img class="logo col-lg-1  " src="../images/1.png" />
+            </div>
+        </div>
+        <div class="cnvs myimg">
+            <canvas width="1680" height="900"></canvas>
+        </div>
+        <div class="main-content">
+            <div class="navy">
+                <div class="move col-lg-offset-0">
+                    <div class="nav-item">
+                        <a class=" round btn holo btn-theme-bg current" href="#" data-slide="0" role="button">About us</a>
+                    </div>
+                    <div class="nav-item">
+                        <a class=" round btn test btn-theme-bg" href="#" data-slide="1" role="button">Products</a>
+                        <div class="sub-items">
+                            <a class=" round btn test btn-theme-bg current" href="#" data-slide="1" role="button">SMARTSHEET</a>
+                            <a class=" round btn holo btn-theme-bg" href="#" data-slide="1" role="button">MAGICBOX</a>
+                            <a class=" round btn smart-sheet btn-theme-bg" href="#" data-slide="2" role="button">OTHER</a>
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <a class=" round btn holo btn-theme-bg" href="#" data-slide="1" role="button">Services</a>
+                    </div>
+                    <div class="nav-item">
+                        <a class=" round btn smart-sheet btn-theme-bg" href="#" data-slide="2" role="button">Showcase</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-wrapper">
+                <div id="slide0" class="slide current-slide">
+                    <div class="container relative ">
+                        <div class="para">
+                            <h1 class="">About us</h1>
+                        </div>
+                        <p class="mid">
+                            Intervision combines Art & Technology to create a mesmerizing experience for your target audience.
+                        </p>
+                        <br>
+                        <div class="para">
+                            <h1 class="">Our Partners</h1>
+                        </div>
+                        <div class="partners">
+                            <div class="row">
+                                <div class="col-md-12"><img src="images/ems.png" alt=""></div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-4"><img src="images/samsung.png" alt=""></div>
+                                <div class="col-md-4"><img src="images/epson.png" alt=""></div>
+                                <div class="col-md-4"><img src="images/christie.png" alt=""></div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-4"><img src="images/bosch.png" alt=""></div>
+                                <div class="col-md-4"><img src="images/cisco.png" alt=""></div>
+                                <div class="col-md-4"><img src="images/optoma.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="slide1" class="slide hidden-slide slide-right">
+                    <div class="container relative">
+                        <div id="smartsheet-carousel" class="carousel holo slide" data-interval="false" data-pause="true">
+                        <div class="container-fluid">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <ul class="video-ul">
+                                        <li>
+                                          <video id="ss-video" class="video" poster="images/ss-intro.jpg" controls>
+                                              <source src="videos/smartsheet.mp4" type="video/mp4">
+                                          </video>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <ul class="video-ul">
+                                        <li>
+                                          <div class="container">
+                                            <div class="txt-side">
+                                              <h1 class="big">Clearview Holographic</h1>
+                                              <p class=" mid">
+                                                  Experience the latest technology of Clearview Holographic Display
+                                              </p>
+                                              <!--end of text side-->
+                                            </div>
+                                          </div>
+                                          <div class="videos compact">
+                                              <div class="wrapper col-lg-4">
+                                                  <video id="0" class="col-lg-4 video bg-video" poster="images/th1.jpg" width="320" height="240" onDblClick="toggleFullScreen(this)" playline loop>
+                                                      <source src="videos/holo1.mp4" type="video/mp4">
+                                                  </video>
+                                                  <!-- <div class="playpause"></div> -->
+                                              </div>
+                                              <div class="wrapper col-lg-4">
+                                                  <video id="1" class="col-lg-4 video current" poster="images/th2.jpg" width="320" height="240" onDblClick="toggleFullScreen(this)" playline loop>
+                                                      <source src="videos/holo2.mp4" type="video/mp4">
+                                                  </video>
+                                                  <!-- <div class="playpause"></div> -->
+                                              </div>
+                                              <div class="wrapper col-lg-4">
+                                                  <video id="2" class="col-lg-4 video " poster="images/th3.jpg" width="320" height="240" onDblClick="toggleFullScreen(this)" playline loop>
+                                                      <source src="videos/holo3.mp4" type="video/mp4">
+                                                  </video>
+                                                  <!-- <div class="playpause"></div> -->
+                                              </div>
+                                          </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <ul class="video-ul">
+                                        <li>
+                                          <div class="container">
+                                              <div class="txt-side">
+                                                  <!--end of text side-->
+                                                  <br>
+                                                  <div class="para">
+                                                      <h1 class="inline big"> Stunning </h1>
+                                                      <img class="inline" id="klogo" src="images/4k-logo.png" alt="">
+                                                      <h1 class="inline big"> Resolution</h1>
+                                                      <p class=" mid">
+                                                          Enjoy a sneak peek of our stunning 4K UHD resoultion
+                                                      </p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="videos compact">
+                                              <div class="wrapper col-lg-4">
+                                                  <video id="0" class="col-lg-4 video bg-video" poster="../images/th6.jpg" width="320" height="240" onDblClick="toggleFullScreen(this)" playline loop>
+                                                      <source src="videos/vid1.mp4" type="video/mp4">
+                                                  </video>
+                                                  <!-- <div class="playpause"></div> -->
+                                              </div>
+                                              <div class="wrapper col-lg-4">
+                                                  <video id="1" class="col-lg-4 video current" poster="../images/th7.jpg" width="320" height="240" onDblClick="toggleFullScreen(this)" playline loop>
+                                                      <source src="videos/vid2.mp4" type="video/mp4">
+                                                  </video>
+                                                  <!-- <div class="playpause"></div> -->
+                                              </div>
+                                              <div class="wrapper col-lg-4">
+                                                  <video id="2" class="col-lg-4 video " poster="../images/th8.jpg" width="320" height="240" onDblClick="toggleFullScreen(this)" playline loop>
+                                                      <source src="videos/vid3.mp4" type="video/mp4">
+                                                  </video>
+                                                  <!-- <div class="playpause"></div> -->
+                                              </div>
+                                          </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <!--end of all item -->
+                            </div>
+                            <!--end of container-->
+                        </div>
+                        <a class="carousel-control" href="#smartsheet-carousel" role="button" data-slide="prev">
+                          <img class="myarrow" src="../images/left.png"/>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="righ carousel-control" href="#smartsheet-carousel" role="button" data-slide="next">
+                          <img class="myarrow" src="../images/right.png"/>
+                          <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div id="slide2" class="slide hidden-slide slide-right">
+                    <div class="container">
+                        <div class="txt-side">
+                            <!--end of text side-->
+                            <br>
+                            <div class="para">
+                                <h1 class="inline big"> Stunning </h1>
+                                <img class="inline" id="klogo" src="../images/4k-logo.png" alt="">
+                                <h1 class="inline big"> Resolution</h1>
+                                <p class="narrow mid">
+                                    Enjoy a sneak peek of our stunning 4K UHD resoultion
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="videos compact">
+                        <div class="wrapper col-lg-4">
+                            <video id="0" class="col-lg-4 video bg-video" poster="../images/th6.jpg" width="320" height="240" onDblClick="toggleFullScreen(this)" playline loop>
+                                <source src="videos/vid1.mp4" type="video/mp4">
+                            </video>
+                            <!-- <div class="playpause"></div> -->
+                        </div>
+                        <div class="wrapper col-lg-4">
+                            <video id="1" class="col-lg-4 video current" poster="../images/th7.jpg" width="320" height="240" onDblClick="toggleFullScreen(this)" playline loop>
+                                <source src="videos/vid2.mp4" type="video/mp4">
+                            </video>
+                            <!-- <div class="playpause"></div> -->
+                        </div>
+                        <div class="wrapper col-lg-4">
+                            <video id="2" class="col-lg-4 video " poster="../images/th8.jpg" width="320" height="240" onDblClick="toggleFullScreen(this)" playline loop>
+                                <source src="videos/vid3.mp4" type="video/mp4">
+                            </video>
+                            <!-- <div class="playpause"></div> -->
+                        </div>
+                    </div>
+                </div>
+                <div id="slide1" class="slide hidden-slide slide-right">
+                    <div class="container">
+                        <div class="txt-side">
+                            <!--end of text side-->
+                            <br>
+                            <div class="para">
+                                <h1 class="inline big"> Stunning </h1>
+                                <img class="inline" id="klogo" src="../images/4k-logo.png" alt="">
+                                <h1 class="inline big"> Resolution</h1>
+                                <p class="narrow mid">
+                                    Enjoy a sneak peek of our stunning 4K UHD resoultion
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="videos compact">
+                        <div class="wrapper col-lg-4">
+                            <video id="0" class="col-lg-4 video bg-video" poster="../images/th6.jpg" width="320" height="240" onDblClick="toggleFullScreen(this)" playline loop>
+                                <source src="../../videos/Video 2.mp4" type="video/mp4">
+                            </video>
+                            <!-- <div class="playpause"></div> -->
+                        </div>
+                        <div class="wrapper col-lg-4">
+                            <video id="1" class="col-lg-4 video current" poster="../images/th7.jpg" width="320" height="240" onDblClick="toggleFullScreen(this)" playline loop>
+                                <source src="../../videos/Video 3.mp4" type="video/mp4">
+                            </video>
+                            <!-- <div class="playpause"></div> -->
+                        </div>
+                        <div class="wrapper col-lg-4">
+                            <video id="2" class="col-lg-4 video " poster="../images/th8.jpg" width="320" height="240" onDblClick="toggleFullScreen(this)" playline loop>
+                                <source src="../../videos/Video 4.mp4" type="video/mp4">
+                            </video>
+                            <!-- <div class="playpause"></div> -->
+                        </div>
+                    </div>
+                </div>
+                <div id="slide2" class="slide hidden-slide slide-right">
+                   <div class="container">
+                        <div class="txt-side">
+                            <h1 class="big">Clearview Holographic Technology </h1>
+                            <p class=" mid">
+                                Experience the latest technology of Clearview Holographic Display
+                            </p>
+                            <!--end of text side-->
+                        </div>
+                        <br>
+                        <div class="vid-li">
+                        </div>
+                    </div>
+                    <div id="holo-carousel" class="carousel holo slide" data-interval="false" data-pause="true">
+                        <div class="container-fluid">
+                            <ol class="carousel-indicators">
+                                <li data-target="#holo-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#holo-carousel" data-slide-to="1"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <ul class="video-ul">
+                                        <li>
+                                            <video id="myvideo1" class=" col-lg-4 video" poster="../images/th1.jpg" width="320" height="240" onDblClick="toggleFullScreen(this) ">
+                                                <source src="../../videos/Holographic/3.mp4" type="video/mp4">
+                                            </video>
+                                        </li>
+                                        <li>
+                                            <video id="myvideo2" class="col-lg-4 video" poster="../images/th2.jpg" width="320" height="240" onDblClick="toggleFullScreen(this)">
+                                                <source src="../../videos/Holographic/2.mp4" type="video/mp4">
+                                            </video>
+                                        </li>
+                                        <li>
+                                            <video id="myvideo3" class="col-lg-4 video" poster="../images/th3.jpg" width="320" height="240" onDblClick="toggleFullScreen(this)">
+                                                <source src="../../videos/Holographic/1.mp4" type="video/mp4">
+                                            </video>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <ul class="video-ul">
+                                        <li>
+                                            <video id="myvideo4" class="col-lg-4 video" poster="../images/th4.jpg" width="320" height="240" onDblClick="toggleFullScreen(this)">
+                                                <source src="../../videos/Holographic/4.mp4" type="video/mp4">
+                                            </video>
+                                        </li>
+                                        <li>
+                                            <video id="myvideo5" class="col-lg-4 video" poster="../images/th5.jpg" width="320" height="240" onDblClick="toggleFullScreen(this)">
+                                                <source src="../../videos/Holographic/5.mp4" type="video/mp4">
+                                            </video>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--end of all item -->
+                            </div>
+                            <!--end of container-->
+                        </div>
+                        <a class="carousel-control" href="#holo-carousel" role="button" data-slide="prev">
+                          <img class="myarrow" src="../images/left.png"/>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="righ carousel-control" href="#holo-carousel" role="button" data-slide="next">
+                          <img class="myarrow" src="../images/right.png"/>
+                          <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div id="slide3" class="slide hidden-slide slide-right">
+                    <div class="container relative ">
+                        <div class="para">
+                            <h1 class="big">Try out some of our experiments</h1>
+                        </div>
+                        <br>
+                        <br>
+                        <div id="myCarousel" class="carousel multi-item-carousel slide">
+                            <!-- Indicators -->
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <div class="col-lg-4">
+                                        <a href="../apps/first/index.html">
+                                            <div class="prev">
+                                                <img src="../images/memory.jpg" alt="">
+                                            </div>
+                                            <div class="prev-txt">Memory Game</div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-lg-4">
+                                        <a href="../apps/second/index.html">
+                                            <div class="prev">
+                                                <img src="../images/tic.jpg" alt="">
+                                            </div>
+                                            <div class="prev-txt">Tic Tac Toe <span class="small-txt">(Multiplayer)</span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-lg-4">
+                                        <a href="../apps/third/index.html">
+                                            <div class="prev">
+                                                <img src="../images/color.jpg" alt="">
+                                            </div>
+                                            <div class="prev-txt">Color Chips</div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-lg-4">
+                                        <a href="../apps/fourth/index.html">
+                                            <div class="prev">
+                                                <img src="../images/cub.jpg" alt="">
+                                            </div>
+                                            <div class="prev-txt">Cub & Pup</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                       <span class="cont" aria-hidden="true"><i class="fa fa-chevron-right"></i></span>
+                       <span class="sr-only">Previous</span>
+                       </a>
+                            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                       <span class="cont" aria-hidden="true"><i class="fa fa-chevron-right"></i>></span>
+                       <span class="sr-only">Next</span>
+                       </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel" id="pnl2"></div>
+    <div class="panel" id="pnl3"></div>
+    <div class="panel" id="pnl4"></div>
+    <!--button side-->
+</body>
+<script src="js/constellation.js"></script>
+<script src="js/navigation.js" type="text/javascript"></script>
+
+</html>

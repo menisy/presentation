@@ -1,0 +1,27 @@
+#settings {
+  background-color: #eee;
+  color: #222;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 6px;
+  box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.2);
+  font-size: 12px;
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+    &:last-child {
+      border-bottom: 0;
+      margin-bottom: 0;
+    }
+    
+    label {
+      margin-right: 8px;
+    }
+  }
+}

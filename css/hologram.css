@@ -1,0 +1,268 @@
+.myarrow
+{
+	width: 20px;
+	height: 30px;
+	margin-top: 124px;
+	
+}
+
+ 
+
+video::-webkit-media-controls-fullscreen-button{
+	margin-top:-40px;
+	background-color: rgba(0,0,0,0.25);
+	
+	
+}
+.mynav
+{
+	
+	 color: white;
+     margin-top: 35px;
+	text-decoration: none;
+	
+}
+.mynav:hover
+{
+	text-decoration: none;
+	color: #0C95CF;
+}
+
+
+
+
+
+.myimg
+{
+  /*background-image: url(../images/4.jpg);*/
+/*  background-color: #111;
+  background-size:contain;
+  background-origin: border-box;*/
+  width: 100%;
+/*  background-attachment: fixed;*/
+  height: 350px;
+/*  background-repeat: no-repeat;
+  background-position: 0px -230px;*/
+  background-color: #111;
+  overflow: hidden;
+}
+.carousel-inner
+{
+	overflow:visible;
+}
+
+.carousel-indicators
+{
+	
+margin-bottom: -10px;
+	
+}
+.logo
+{
+	 margin-top:10px;
+}
+.header
+{
+    
+    padding-top: 35px;
+    width: 100%;
+    height: 120px;
+    position:absolute;
+    
+}
+
+
+.mybutton
+{   
+	margin-right: 30px;
+	float: right;
+	margin-top: 20px;
+    color: white;
+    height: 40px;
+    width: 150px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    text-align: center;
+    background-color: rgba(88, 207, 144, 1);
+    border-radius: 30px;
+     
+     
+    
+    opacity:1;
+	font-size: 15px;
+}
+ 
+
+ 
+.mybutton:hover
+{
+    background-color: white;
+	color: brown;
+     
+	text-decoration: none;
+     
+}
+
+.txt-side
+{
+  width: 100%;
+	text-align: center;
+	padding-top: 30px;
+	margin-top: 10px;
+    
+    
+    
+} 
+
+    
+    
+.video-ul
+{
+list-style: none;
+padding-right: 40px ;
+ 	 
+ 
+}
+			
+.carousel-control
+{
+width:20px;
+ 
+}
+			
+ 
+.slide
+{
+
+height: 300px;
+
+					 
+				}
+
+
+.carousel-control
+{
+ 
+	margin-bottom: 40px;
+	 opacity: 1;
+	 width: 2%;
+	
+
+}
+.righ
+{
+	right: 0;
+	left:auto;
+}
+
+.glyphicon:hover{
+	 color:  rgba(39,81,27,1.00);
+	
+}
+    
+    
+
+      
+ 
+      
+  
+.narrow{
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+#klogo{
+  width: 8%;
+  margin: 0px 10px 40px 10px;
+}
+.inline{
+  display: inline-block;
+}
+.big{
+  font-size: 4.5em;
+}
+.mid{
+  font-size: 2.5em;
+}
+/*.videos video{
+  width: 31%;
+}*/
+.videos .video{
+  width: 105%;
+  left: -1%;
+}
+.logo-wrapper{
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+.logo{
+  margin-left: 42%;
+  width: 15%;
+}
+.btn.round{
+  padding: 1.05rem 2.75rem;
+  margin: 0px 10px;
+  min-width: 150px;
+  color: #0f75bc;
+  background-color: rgba(100,100,140,0.3);
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-radius: 12rem;
+  border: .2rem solid #28aadc;
+  -webkit-transition: color .3s,border .3s;
+  transition: color .3s,border .3s;
+}
+.relative{
+  position: relative;
+}
+.btn{
+  padding-top: 250px;
+}
+.navy{
+  position: relative;
+  top: -80px;
+  height: 0px;
+}
+.navy .move{
+  text-align: center;
+}
+.btn.current{
+  color: #39b54a;
+  border: .2rem solid #49e05e;
+}
+.video {
+    width: 100%;
+}
+.wrapper{
+    position:relative;
+    width: 33%;
+
+}
+.playpause {
+    height: 150px;
+    width: 150px;
+    background-image:url(../images/play.png);
+    background-repeat:no-repeat;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
+    position: absolute;
+    top : 55%;
+    left : 50%;
+    transform: translate(-50%, -50%);
+}
+.container-fluid{
+  overflow: hidden;
+}
+.carousel-indicators .active{
+  background-color: #111;
+}
+.carousel-indicators li{
+  border: 1px solid #111;
+}
+
