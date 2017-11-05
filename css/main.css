@@ -40,15 +40,19 @@ span
 }
 
 
-
+html{
+  background-color: #000;
+}
 body
 {
-background-color: white;  
+background-color: #000;  
 color:white;
-  text-align: center;
+text-align: center;
 }
 
-
+#pnl0{
+  background-color: #000;
+}
 
 
 .fmcircle_in img {
@@ -75,7 +79,7 @@ height: 400px;
 }
 .btnback
 {
-  background-color: white;
+  background-color: #000;
   margin-top: 80px;
   background-repeat: no-repeat;
     background-size: contain;
@@ -120,7 +124,7 @@ body {
   height: 200px;
   text-align: center;
    
- margin-left: 80px;
+  margin: 0 auto;
   opacity: 1; 
   
   border-radius: 100px;
@@ -480,11 +484,6 @@ margin-top: 40px;
   margin-left: 10%;
   text-align: center;
 }
-
-#klogo{
-  width: 8%;
-  margin: 0px 10px 40px 10px;
-}
 .inline{
   display: inline-block;
 }
@@ -532,13 +531,13 @@ margin-top: 40px;
   color: #39b54a;
   border: .2rem solid #49e05e;
 }
-.prev{
+.apps-carousel .prev{
   width: 100%;
   overflow: hidden;
   border: 1px solid #333;
   border-radius: 5px;
 }
-.prev img{
+.apps-carousel .prev img{
     width: 100%;
     min-height: 310px;
     max-height: 310px;
@@ -792,8 +791,10 @@ height: 300px;
 }
 
 #klogo{
-  width: 8%;
   margin: 0px 10px 40px 10px;
+  max-height: 61px;
+  width: 96px;
+  height: 61px !important;
 }
 .inline{
   display: inline-block;
@@ -818,9 +819,9 @@ height: 300px;
   width: 15%;
 }
 .btn.round{
-  padding: 1.05rem 2.75rem;
+  padding: 5px;
   margin: 0px 10px;
-  min-width: 150px;
+  min-width: 135px;
   color: #0f75bc;
   background-color: rgba(100,100,140,0.3);
   font-size: 1.5rem;
@@ -927,9 +928,7 @@ height: 300px;
   top: -590px;
   max-height: 600px;
 }
-.panel{
-  max-height: 900px;
-}
+
 .item{
   border: none !important;
 }
@@ -989,6 +988,64 @@ a.carousel-control{
   top: 150px;
   padding: 10px;
 }
+
+#apps-in-carousel .item:first-child{
+  display: block !important;
+}
+.main-logo{
+  z-index: 999;
+  top: 80px;
+  position: fixed;
+}
+.main-logo{
+/*    float: left;
+    margin: 4em 1em;
+    width: 100px;
+    height: 60px;
+    border: 2px solid green;
+    background-color: #fff;
+    line-height: 60px;
+    text-align: center;*/
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  .main-logo.slideup{
+    -webkit-transform: translate(0,-5em);
+    -moz-transform: translate(0,-5em);
+    -o-transform: translate(0,-5em);
+    -ms-transform: translate(0,-5em);
+    transform: translate(0,-5em);
+  }
+
+
+
+
+
+.intro-vid{
+    opacity: 1;
+}
+
+.intro-vid.hide-opacity {
+    color: #FFFFFF;
+    text-align: center;
+
+    -webkit-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    -ms-transition: opacity 1s linear;
+    -o-transition: opacity 1s linear;
+     opacity: 0;
+}
+
+
+
+
+
+
+
+
+
 
 
 
